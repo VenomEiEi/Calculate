@@ -17,5 +17,15 @@ public class Calculate {
 			return false;
 		}
 	}
+	
+	public String number() {
+		String[] num = {"zero","one","two","three","four","five","six","seven","eight","nine"};
+		
+		if(this.isCalculat(number) == true) {
+			return num[this.number];
+		}else {
+			return "input 0-9";
+		}
+ 	}
 
 }
