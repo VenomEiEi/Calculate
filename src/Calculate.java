@@ -18,6 +18,7 @@ public class Calculate {
 		}
 	}
 	
+<<<<<<< HEAD
 	public String number() {
 		String[] num = {"zero","one","two","three","four","five","six","seven","eight","nine"};
 		
@@ -27,5 +28,19 @@ public class Calculate {
 			return "input 0-9";
 		}
  	}
+=======
+	public String Month() {
+		
+		String[] array = {"January","February","March","April","May","June","July","August","September","October"};
+		
+		if(this.isCalculat(number) == true) {
+			return array[this.number];
+		}else {
+			return "input 0-9";
+		}
+		
+		
+	}
+>>>>>>> ProjectB
 
 }
