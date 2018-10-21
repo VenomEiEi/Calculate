@@ -17,5 +17,18 @@ public class Calculate {
 			return false;
 		}
 	}
+	
+	public String Month() {
+		
+		String[] array = {"January","February","March","April","May","June","July","August","September","October"};
+		
+		if(this.isCalculat(number) == true) {
+			return array[this.number];
+		}else {
+			return "input 0-9";
+		}
+		
+		
+	}
 
 }
